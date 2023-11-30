@@ -1,13 +1,17 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Playfair_Display } from 'next/font/google';
 import '../globals.css';
 import { notFound } from 'next/navigation';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { locales } from '@/i18n/Locales';
 import { getTranslations } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
+import Header from '@/components/core/Header';
+import Footer from '@/components/core/Footer';
 
-const inter = Inter({ subsets: ['latin'] });
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '700', '900'],
+})
 
 export async function generateMetadata({
   params: { locale }
@@ -35,7 +39,11 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className={inter.className}>{children}</body>
+      <body className={playfair.className}>
+        <Header locale={locale}/>
+        {children}
+        <Footer locale={locale}/>
+      </body>
     </html>
   )
 }

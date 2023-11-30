@@ -1,3 +1,48 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": ["grouped-import"],
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "grouped-import/group": [
+      "warn",
+      {
+        "Packages": [
+          { "path": "react" },
+          { "path": "next" },
+          { "path": "immer" },
+          { "path": "styled-components" },
+          { "path": "@hookform" },
+          { "path": "zod" },
+          { "path": "phosphor-react" },
+          { "path": "@emotion" },
+          { "path": "swr" },
+          { "path": "react-toastify" },
+          { "path": "graphql-request" }
+        ],
+        "Libs": [{ "path": "lib" }],
+        "Constants": [{ "path": "constants" }],
+        "Services": [{ "path": "services" }],
+        "Templates": [{ "path": "templates" }],
+        "Pages": [{ "path": "pages/" }],
+        "Reducers": [{ "path": "reducer" }, { "path": "action" }],
+        "Components": [{ "path": "components" }, { "path": "./components" }],
+        "Contexts": [{ "path": "contexts" }],
+        "Hooks": [{ "path": "hooks" }],
+        "Utils": [{ "path": "utils" }],
+        "Themes": [{ "path": "theme" }],
+        "Icons": [{ "path": "styled-icons" }],
+        "Styles": [
+          { "path": "styles" },
+          { "path": ".css" },
+          { "path": ".styles" }
+        ],
+        "Assets": [
+          { "path": "assets" },
+          { "path": ".png" },
+          { "path": ".svg" },
+          { "path": ".jpg" },
+          { "path": ".ttf" }
+        ]
+      }
+    ]
+  }
 }

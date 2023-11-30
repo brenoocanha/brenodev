@@ -5,5 +5,11 @@
   },
   "Index": {
     "title": "Olá Mundo!"
+  },
+  "Menu": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "contact": "Contato",
+    "resume": "Currículo"
   }
 }

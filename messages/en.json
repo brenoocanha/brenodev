@@ -5,5 +5,11 @@
   },
   "Index": {
     "title": "Hello World!"
+  },
+  "Menu": {
+    "about": "About",
+    "experience": "Experience",
+    "contact": "Contact",
+    "resume": "Resume"
   }
 }
