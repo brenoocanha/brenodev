@@ -6,10 +6,18 @@
   "Index": {
     "title": "Olá Mundo!"
   },
-  "Menu": {
+  "Header": {
     "about": "Sobre",
     "experience": "Experiência",
     "contact": "Contato",
     "resume": "Currículo"
+  },
+  "Footer": {
+    "contact": "Contato",
+    "social": "Social",
+    "phone": "Telefone",
+    "email": "Email",
+    "copyright": "© 2024 Breno Ocanha. Todos os direitos reservados.",
+    "whatsapp_hook": "https://api.whatsapp.com/send?phone=5519981250113&text=Ol%C3%A1%2C%20vi%20seu%20portf%C3%B3lio%20e%20tenho%20uma%20proposta."
   }
 }

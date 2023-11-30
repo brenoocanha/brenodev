@@ -7,3 +7,19 @@
   --secondary-color: #150303;
   --main-bg: linear-gradient(130deg, #5D7E7B 49.62%, rgba(16, 91, 91, 0.85) 74.12%, rgba(13, 81, 81, 0.80) 86%, rgba(6, 40, 40, 0.75) 100.56%);
 }
+
+.underlineAnim:after {
+  content: '';
+  position: absolute;
+  background-color: #105b5bd9;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  border-radius: 50%;
+  transition: all .3s;
+}
+
+.underlineAnim:hover:after {
+  width: 100%;
+}
