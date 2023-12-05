@@ -19,5 +19,11 @@
     "email": "Email",
     "copyright": "© 2024 Breno Ocanha. All rights reserved.",
     "whatsapp_hook": "https://api.whatsapp.com/send?phone=5519981250113&text=Hi%20there!%20I%27ve%20seen%20your%20portfolio%20and%20I%20have%20a%20proposal."
+  },
+  "S-Hero": {
+    "headline": "Hi, my name is",
+    "name": "Breno Ocanha",
+    "subtitle": "I build things for the web.",
+    "description": "I'm a  web developer specializing in building exceptional digital experiences. Currently, i'm focused with working with React and NextJS."
   }
 }

@@ -31,6 +31,9 @@ const config: Config = {
         'texture': "url('/assets/texture-bg.png')",
         'main': "linear-gradient(130deg, #5D7E7B 49.62%, rgba(16, 91, 91, 0.85) 74.12%, rgba(13, 81, 81, 0.80) 86%, rgba(6, 40, 40, 0.75) 100.56%);"
       },
+      animation: {
+        'spin-slow': 'spin 25s linear infinite',
+      }
     },
   },
   plugins: [],

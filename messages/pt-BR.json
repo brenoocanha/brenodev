@@ -19,5 +19,11 @@
     "email": "Email",
     "copyright": "© 2024 Breno Ocanha. Todos os direitos reservados.",
     "whatsapp_hook": "https://api.whatsapp.com/send?phone=5519981250113&text=Ol%C3%A1%2C%20vi%20seu%20portf%C3%B3lio%20e%20tenho%20uma%20proposta."
+  },
+  "S-Hero": {
+    "headline": "Olá, meu nome é",
+    "name": "Breno Ocanha",
+    "subtitle": "Eu desenvolvo coisas para a web",
+    "description": "Sou um desenvolvedor web especializado na criação de experiências digitais excepcionais. Atualmente, estou focado em trabalhar com React e NextJS."
   }
 }
