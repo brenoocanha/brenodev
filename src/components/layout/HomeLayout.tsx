@@ -22,7 +22,7 @@ export default function HomeLayout({
 
         <div className="flex laptop:justify-start laptop:items-start flex-col justify-center items-center w-full">
           <h3 className="text-white font-bold text-center laptop:text-left tablet:text-2xl laptop:text-3xl">{translation.headline}</h3>
-          <h1 className="text-white font-bold leading-none whitespace-nowrap text-center laptop:text-left text-[4rem] laptop:text-[4.5rem]">{translation.name}</h1>
+          <h1 className="text-white font-bold leading-none whitespace-nowrap text-center laptop:text-left text-[2.75rem] laptop:text-[4.5rem]">{translation.name}</h1>
           <h2 className="text-[#F2E7DC] font-bold leading-none my-4 text-center laptop:text-left text-2xl laptop:text-[2.5rem]">{translation.subtitle}</h2>
           <p className="text-white text-xl laptop:text-2xl text-center laptop:text-left">{translation.description}</p>
         </div>
