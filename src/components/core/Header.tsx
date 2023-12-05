@@ -11,7 +11,7 @@ export default function Header({ locale }: { locale: string }) {
   const tHeader = useTranslations('Header');
 
   return (
-    <header className="bg-transparent h-16 fixed w-full top-0 left-0 backdrop-blur-xl shadow-lg flex">
+    <header className="bg-transparent h-16 fixed w-full top-0 left-0 backdrop-blur-xl shadow-lg flex z-50">
       <div className="w-full px-4 laptop:container laptop:px-0 flex justify-between mx-auto">
         <div className="flex justify-center items-center">
           <Link href='/'>
